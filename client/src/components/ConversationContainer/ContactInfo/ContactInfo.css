@@ -1,0 +1,31 @@
+.MessageInfoContainer__Info {
+    flex-basis: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.25px solid rgba(0, 0, 0, 0.15);
+}
+
+.MessageInfoContainer__Info__Detail__Fullname {
+    display: flex;
+}
+
+.MessageInfoContainer__Info__Detail__Fullname > div {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.MessageInfoContainer__Info__Detail {
+    flex-basis: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.Status i {
+    transform: translateY(-0.5em)
+}
+
+.Dropdown {
+    padding-right: 10px;
+    margin-left: auto;
+}

@@ -1,0 +1,30 @@
+.ContactContainer__SearchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 66px;
+  padding-left: 3px;
+  border-bottom: 1.25px solid rgba(0, 0, 0, 0.15);
+}
+
+.ui.search {
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.ContactContainer__SearchContainer > div {
+  cursor: pointer;
+}
+
+.ContactContainer__ContactItemContainer {
+  height: calc(80vh - 66px - 40.75px);
+  overflow: auto;
+}
+
+.Placeholder {
+  width: 100%;
+  height: 100px;
+}
+
+

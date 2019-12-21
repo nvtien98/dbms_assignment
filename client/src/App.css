@@ -1,0 +1,69 @@
+body {
+  background-color: #e9ebee;
+  color: black;
+}
+
+:root {
+  --primary-color: #296eac;
+  --primary-dark-color: darkblue;
+  --grey-color: rgba(0, 0, 0, 0.4);
+  --bold-color: rgba(0, 0, 0, 0.87);
+
+  --subtitle-font-size: 0.9em;
+  --title-font-size: 1.05em;
+
+  --message-page-height: 80vh;
+  --message-page-search: 66px;
+  --message-page-input: 3em;
+
+  --content-width: 935px;
+  --post-width: 634px;
+}
+
+.Fullname {
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  font-size: var(--title-font-size);
+  cursor: pointer;
+}
+
+.Fullname--Medium {
+  font-size: 0.9rem;
+}
+
+.InitialLoaderContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown.icon {
+  margin-left: 0px !important;
+}
+
+i.facebook.icon {
+  font-size: 1.25em;
+  transform: translateY(15%);
+  margin-right: 0.15em !important;
+}
+
+.HomePage__PostContainer .Post .MoreCommentIcon,
+.ProfileBodyContainer__PostContainer .Post .MoreCommentIcon {
+  transform: rotate(180deg) translateY(-0.15em);
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
